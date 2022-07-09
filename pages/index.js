@@ -47,11 +47,11 @@ export default function Home() {
           Seul on va plus vite, à plusieurs on va plus loin.
         </p>
 
-        <div className="d-flex justify-content-between">
-          <button className="button-24 mx-3" onClick={openCreateRoomModal}>
+        <div className="d-flex justify-content-around">
+          <button className="button-24" onClick={openCreateRoomModal}>
             Créer un salon
           </button>
-          <button className="button-24 mx-3" onClick={openJoinRoomModal}>
+          <button className="button-24" onClick={openJoinRoomModal}>
             Rejoindre un salon
           </button>
         </div>
